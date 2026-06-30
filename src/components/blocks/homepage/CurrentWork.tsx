@@ -18,8 +18,12 @@ const skillCategories: SkillCategory[] = [
         skills: ["PySpark", "Pandas", "NumPy", "SQL", "Data Pipelines", "ETL", "Feature Engineering"]
     },
     {
+        title: "Backend & Infra",
+        skills: ["Java (Spring Boot)", ".NET 8", "Kubernetes", "Kafka", "AWS/GCP/Azure", "Docker", "Microservices"]
+    },
+    {
         title: "Development",
-        skills: ["Python", "TypeScript", "Next.js", "Django", "Git", "Docker", "MLOps"]
+        skills: ["Python", "TypeScript", "Next.js", "Vue 3", "REST APIs", "Git", "CI/CD"]
     },
     {
         title: "Research",

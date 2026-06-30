@@ -9,6 +9,20 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 101,
+        title: "FluxPipe",
+        description: "Continuous Data Flow Platform. Built a production-grade, fully containerized data platform orchestrating 20 Docker services - spanning batch ingestion, real-time Kafka streaming, and end-to-end observability.",
+        tags: ["Kafka", "Spark", "Snowflake", "Docker"],
+        repo: "https://github.com/aryanference/fluxpipe"
+    },
+    {
+        id: 102,
+        title: "Redag",
+        description: "AI Workflow Orchestration Platform. Designed an enterprise-grade AI workflow automation platform enabling users to compose reusable DAG pipelines through a drag-and-drop Vue Flow canvas.",
+        tags: ["Vue 3", "Spring Boot", "Python", "Docker"],
+        repo: "https://github.com/aryanference/Redag"
+    },
+    {
         id: 1,
         title: "Bayesian Model",
         description: "Bayesian modeling experiments and implementations.",
