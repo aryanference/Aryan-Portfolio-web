@@ -84,5 +84,12 @@ export const projects: Project[] = [
         description: "Basic ML pipeline and model for classifying SMS spam messages.",
         tags: ["ML", "NLP"],
         repo: "https://github.com/usergotnewexp/sms-spam-classifier-ml-basics-"
+    },
+    {
+        id: 103,
+        title: "RL Library",
+        description: "A reinforcement learning library with core algorithms and training utilities for building RL agents.",
+        tags: ["Reinforcement Learning", "Python", "RL"],
+        repo: "https://github.com/aryanference/RL-Library"
     }
 ]

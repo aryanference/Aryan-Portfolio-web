@@ -30,14 +30,13 @@ export function ResumeSection() {
                                 View My Experience
                             </h2>
                             <p className="font-body text-body-lg text-white/70">
-                                Get a detailed look at my academic background, technical skills, and professional experience. 
-                                (Note: Add your resume as <code className="text-white bg-white/10 px-1.5 py-0.5 rounded text-sm">resume.pdf</code> inside the <code className="text-white bg-white/10 px-1.5 py-0.5 rounded text-sm">public</code> folder to make this button work).
+                                Get a detailed look at my academic background, technical skills, and professional experience.
                             </p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-                            <a 
-                                href="/resume.pdf" 
+                            <a
+                                href="https://drive.google.com/file/d/1WK_-B1n7LUmYURGNdxpghS02xbI4plqv/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-pill-solid text-[15px] py-3 px-8 flex items-center justify-center gap-2 group"
@@ -45,13 +44,14 @@ export function ResumeSection() {
                                 <FileText className="w-4 h-4 group-hover:scale-110 transition-transform" />
                                 <span>View Resume</span>
                             </a>
-                            <a 
-                                href="/resume.pdf" 
-                                download
+                            <a
+                                href="https://drive.google.com/file/d/1WK_-B1n7LUmYURGNdxpghS02xbI4plqv/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="btn-pill-frosted text-[15px] py-3 px-8 flex items-center justify-center gap-2 group"
                             >
                                 <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
-                                <span>Download PDF</span>
+                                <span>Open Resume</span>
                             </a>
                         </div>
                     </div>
