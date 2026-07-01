@@ -22,7 +22,7 @@ export const projects: Project[] = [
         description: "Continuous Data Flow Platform. Built a production-grade, fully containerized data platform orchestrating 20 Docker services - spanning batch ingestion, real-time Kafka streaming, and end-to-end observability.",
         tags: ["Kafka", "Spark", "Snowflake", "Docker"],
         repo: "https://github.com/aryanference/fluxpipe",
-        link: "https://github.com/aryanference/fluxpipe"
+        link: "https://fluxpipe.vercel.app"
     },
     {
         id: 102,
