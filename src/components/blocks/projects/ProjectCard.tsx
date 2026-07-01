@@ -58,6 +58,7 @@ export default function ProjectCard({ project }: Props) {
                         {tag}
                     </span>
                 ))}
+                </div>
             </div>
         </div>
     )
