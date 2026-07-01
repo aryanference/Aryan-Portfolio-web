@@ -13,7 +13,8 @@ export const projects: Project[] = [
         title: "FluxPipe",
         description: "Continuous Data Flow Platform. Built a production-grade, fully containerized data platform orchestrating 20 Docker services - spanning batch ingestion, real-time Kafka streaming, and end-to-end observability.",
         tags: ["Kafka", "Spark", "Snowflake", "Docker"],
-        repo: "https://github.com/aryanference/fluxpipe"
+        repo: "https://github.com/aryanference/fluxpipe",
+        link: "https://github.com/aryanference/fluxpipe"
     },
     {
         id: 102,
@@ -91,5 +92,13 @@ export const projects: Project[] = [
         description: "A reinforcement learning library with core algorithms and training utilities for building RL agents.",
         tags: ["Reinforcement Learning", "Python", "RL"],
         repo: "https://github.com/aryanference/RL-Library"
+    },
+    {
+        id: 104,
+        title: "Layman",
+        description: "An innovative web application.",
+        tags: ["Web", "Fullstack"],
+        repo: "https://github.com/aryanference/Layman",
+        link: "https://layman-ehua.vercel.app"
     }
 ]
