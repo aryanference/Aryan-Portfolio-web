@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        id: 104,
+        title: "Layman",
+        description: "AI Chat. Routed Intelligently. Layman is an intelligent AI chat router that automatically selects the best free model for your prompt, with fallback to user-configured providers. Features a Next.js dashboard, FastAPI backend, and Supabase auth.",
+        tags: ["Next.js", "FastAPI", "React", "AI"],
+        repo: "https://github.com/aryanference/Layman",
+        link: "https://layman-ehua.vercel.app"
+    },
+    {
         id: 101,
         title: "FluxPipe",
         description: "Continuous Data Flow Platform. Built a production-grade, fully containerized data platform orchestrating 20 Docker services - spanning batch ingestion, real-time Kafka streaming, and end-to-end observability.",
@@ -92,13 +100,5 @@ export const projects: Project[] = [
         description: "A reinforcement learning library with core algorithms and training utilities for building RL agents.",
         tags: ["Reinforcement Learning", "Python", "RL"],
         repo: "https://github.com/aryanference/RL-Library"
-    },
-    {
-        id: 104,
-        title: "Layman",
-        description: "An innovative web application.",
-        tags: ["Web", "Fullstack"],
-        repo: "https://github.com/aryanference/Layman",
-        link: "https://layman-ehua.vercel.app"
     }
 ]
